@@ -3,14 +3,14 @@ html(lang="en")
     head
         meta(charset="utf-8")
         title Miisery
+        link(rel="stylesheet" href="index.sass")
     body
-        h1 Press a s d f g h
-        audio(src="../assets/mii1.wav" class="mii")
-        audio(src="../assets/mii2.wav" class="mii")
-        audio(src="../assets/mii3.wav" class="mii")
-        audio(src="../assets/mii4.wav" class="mii")
-        audio(src="../assets/mii5.wav" class="mii")
-        audio(src="../assets/mii6.wav" class="mii")
-        h2 Load button so it works on Chrome
-        button(id="load") Load
+        h1#docu(style="display: none") Press: a, s, d, f, g or h
+        audio.mii(src="../assets/mii1.wav")
+        audio.mii(src="../assets/mii2.wav")
+        audio.mii(src="../assets/mii3.wav")
+        audio.mii(src="../assets/mii4.wav")
+        audio.mii(src="../assets/mii5.wav")
+        audio.mii(src="../assets/mii6.wav")
+        #load Load
         script(src="index.ts")

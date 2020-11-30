@@ -10,4 +10,10 @@ function load() {
     });
 }
 
-document.getElementById("load")?.addEventListener("click", load);
+const button = document.getElementById("load");
+button?.addEventListener("click", () => {
+    const docu = document.getElementById("docu");
+    if (docu) docu.style.display = "block";
+    if (button) button.style.display = "none";
+    load();
+});
