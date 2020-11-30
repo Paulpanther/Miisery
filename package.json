@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "npx parcel src/index.pug"
+    "start": "npx parcel src/index.pug",
+    "build": "npx parcel build src/index.pug"
   },
   "author": "Paul Methfessel",
   "license": "MIT",
